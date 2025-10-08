@@ -13,6 +13,11 @@ export default function App() {
           <Route path="/" element={<TaskListView />} />
           <Route path="/add" element={<AddTaskView />} />
         </Routes>
+  <index />
+  <Navbar />
+  <AddTaskView />
+  <Tasklist />
+  
       </div>
     </>
   );
